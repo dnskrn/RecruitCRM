@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]" parallel="instances">
+  <test thread-count="2" name="AutomationpracticeTest(failed)" parallel="instances">
+    <parameter name="UserName" value="phishing@springct.com"/>
+    <parameter name="env" value="http://automationpractice.com/index.php"/>
+    <parameter name="PassWord" value="Phish@123"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.QATest.RecruitCRM.AutomationpracticeTest">
+        <methods>
+          <include name="LogintotheURL"/>
+          <include name="TestDataSetup"/>
+          <include name="TearDown"/>
+          <include name="Scenario2"/>
+          <include name="InitializeBrowser"/>
+          <include name="Scenario1"/>
+          <include name="getResult"/>
+          <include name="LaunchTheLoginPage"/>
+          <include name="Scenario3"/>
+        </methods>
+      </class> <!-- com.QATest.RecruitCRM.AutomationpracticeTest -->
+    </classes>
+  </test> <!-- AutomationpracticeTest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

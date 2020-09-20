@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+
+	<test name="AutomationpracticeTest">
+		<parameter name="Browser" value="chrome" />
+		<parameter name="env"
+			value="http://automationpractice.com/index.php" />
+		<parameter name="UserName" value="phishing@springct.com" />
+		<parameter name="PassWord" value="Phish@123" />
+		<classes>
+			<class name="com.QATest.RecruitCRM.AutomationpracticeTest" />
+		</classes>
+	</test>
+	<test name="GogleMapsTest">
+		<parameter name="Browser" value="chrome" />
+		<parameter name="env" value="https://www.google.com/maps/" />
+		<classes>
+			<class name="com.QATest.RecruitCRM.GogleMapsTest" />
+		</classes>
+	</test>
+	<test name="qaagilityTest">
+		<parameter name="Browser" value="gecko" />
+		<parameter name="env" value="https://www.qaagility.com" />
+		<classes>
+			<class name="com.QATest.RecruitCRM.qaagilityTest" />
+		</classes>
+	</test>
+</suite>

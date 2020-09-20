@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="77450" started-at="2020-09-20T13:27:48Z" finished-at="2020-09-20T13:29:06Z">
+    <groups>
+    </groups>
+    <test name="AutomationpracticeTest" duration-ms="38065" started-at="2020-09-20T13:27:48Z" finished-at="2020-09-20T13:28:26Z">
+      <class name="com.QATest.RecruitCRM.AutomationpracticeTest">
+        <test-method status="PASS" signature="InitializeBrowser(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="InitializeBrowser" is-config="true" duration-ms="7489" started-at="2020-09-20T13:27:48Z" finished-at="2020-09-20T13:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method status="PASS" signature="LaunchTheLoginPage(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="LaunchTheLoginPage" duration-ms="5785" started-at="2020-09-20T13:27:56Z" finished-at="2020-09-20T13:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheLoginPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="getResult" is-config="true" duration-ms="19" started-at="2020-09-20T13:28:02Z" finished-at="2020-09-20T13:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LaunchTheLoginPage status=SUCCESS method=AutomationpracticeTest.LaunchTheLoginPage(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="LogintotheURL(java.lang.String, java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="LogintotheURL" duration-ms="4912" started-at="2020-09-20T13:28:02Z" depends-on-methods="com.QATest.RecruitCRM.AutomationpracticeTest.LaunchTheLoginPage" finished-at="2020-09-20T13:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phishing@springct.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phish@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogintotheURL -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="getResult" is-config="true" duration-ms="2" started-at="2020-09-20T13:28:07Z" finished-at="2020-09-20T13:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogintotheURL status=SUCCESS method=AutomationpracticeTest.LogintotheURL(java.lang.String, java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Scenario1()[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="Scenario1" duration-ms="10946" started-at="2020-09-20T13:28:07Z" depends-on-methods="com.QATest.RecruitCRM.AutomationpracticeTest.LogintotheURL" finished-at="2020-09-20T13:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="getResult" is-config="true" duration-ms="1" started-at="2020-09-20T13:28:18Z" finished-at="2020-09-20T13:28:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Scenario1 status=SUCCESS method=AutomationpracticeTest.Scenario1()[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Scenario2()[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="Scenario2" duration-ms="4310" started-at="2020-09-20T13:28:18Z" depends-on-methods="com.QATest.RecruitCRM.AutomationpracticeTest.Scenario1" finished-at="2020-09-20T13:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="getResult" is-config="true" duration-ms="3" started-at="2020-09-20T13:28:22Z" finished-at="2020-09-20T13:28:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Scenario2 status=SUCCESS method=AutomationpracticeTest.Scenario2()[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Scenario3()[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="Scenario3" duration-ms="1991" started-at="2020-09-20T13:28:22Z" depends-on-methods="com.QATest.RecruitCRM.AutomationpracticeTest.Scenario2" finished-at="2020-09-20T13:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="getResult" is-config="true" duration-ms="1" started-at="2020-09-20T13:28:24Z" finished-at="2020-09-20T13:28:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Scenario3 status=SUCCESS method=AutomationpracticeTest.Scenario3()[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.QATest.RecruitCRM.AutomationpracticeTest@71318ec4]" name="TearDown" is-config="true" duration-ms="2539" started-at="2020-09-20T13:28:24Z" finished-at="2020-09-20T13:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.QATest.RecruitCRM.AutomationpracticeTest -->
+    </test> <!-- AutomationpracticeTest -->
+    <test name="GogleMapsTest" duration-ms="22549" started-at="2020-09-20T13:28:26Z" finished-at="2020-09-20T13:28:49Z">
+      <class name="com.QATest.RecruitCRM.GogleMapsTest">
+        <test-method status="PASS" signature="InitializeBrowser(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="InitializeBrowser" is-config="true" duration-ms="5574" started-at="2020-09-20T13:28:26Z" finished-at="2020-09-20T13:28:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method status="PASS" signature="GogleMapsTesting(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="GogleMapsTesting" duration-ms="5735" started-at="2020-09-20T13:28:32Z" finished-at="2020-09-20T13:28:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/maps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GogleMapsTesting -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="getResult" is-config="true" duration-ms="32" started-at="2020-09-20T13:28:38Z" finished-at="2020-09-20T13:28:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GogleMapsTesting status=SUCCESS method=GogleMapsTest.GogleMapsTesting(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SearchinGoogleMaps()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="SearchinGoogleMaps" duration-ms="1571" started-at="2020-09-20T13:28:38Z" depends-on-methods="com.QATest.RecruitCRM.GogleMapsTest.GogleMapsTesting" finished-at="2020-09-20T13:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchinGoogleMaps -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="getResult" is-config="true" duration-ms="2" started-at="2020-09-20T13:28:39Z" finished-at="2020-09-20T13:28:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchinGoogleMaps status=SUCCESS method=GogleMapsTest.SearchinGoogleMaps()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TaketheScreenShotofSearchResult()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="TaketheScreenShotofSearchResult" duration-ms="6236" started-at="2020-09-20T13:28:39Z" depends-on-methods="com.QATest.RecruitCRM.GogleMapsTest.SearchinGoogleMaps" finished-at="2020-09-20T13:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TaketheScreenShotofSearchResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-09-20T13:28:46Z" finished-at="2020-09-20T13:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TaketheScreenShotofSearchResult status=SUCCESS method=GogleMapsTest.TaketheScreenShotofSearchResult()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VerifyTheTextStadium()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="VerifyTheTextStadium" duration-ms="643" started-at="2020-09-20T13:28:46Z" depends-on-methods="com.QATest.RecruitCRM.GogleMapsTest.TaketheScreenShotofSearchResult" finished-at="2020-09-20T13:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheTextStadium -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-09-20T13:28:46Z" finished-at="2020-09-20T13:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheTextStadium status=SUCCESS method=GogleMapsTest.VerifyTheTextStadium()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VerifyTheTitle()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="VerifyTheTitle" duration-ms="41" started-at="2020-09-20T13:28:46Z" depends-on-methods="com.QATest.RecruitCRM.GogleMapsTest.VerifyTheTextStadium" finished-at="2020-09-20T13:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="getResult" is-config="true" duration-ms="1" started-at="2020-09-20T13:28:46Z" finished-at="2020-09-20T13:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTheTitle status=SUCCESS method=GogleMapsTest.VerifyTheTitle()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PrintTheNoOfRating()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="PrintTheNoOfRating" duration-ms="230" started-at="2020-09-20T13:28:46Z" depends-on-methods="com.QATest.RecruitCRM.GogleMapsTest.VerifyTheTitle" finished-at="2020-09-20T13:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintTheNoOfRating -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="getResult" is-config="true" duration-ms="2" started-at="2020-09-20T13:28:47Z" finished-at="2020-09-20T13:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PrintTheNoOfRating status=SUCCESS method=GogleMapsTest.PrintTheNoOfRating()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.QATest.RecruitCRM.GogleMapsTest@369f73a2]" name="TearDown" is-config="true" duration-ms="2440" started-at="2020-09-20T13:28:47Z" finished-at="2020-09-20T13:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.QATest.RecruitCRM.GogleMapsTest -->
+    </test> <!-- GogleMapsTest -->
+    <test name="qaagilityTest" duration-ms="16796" started-at="2020-09-20T13:28:49Z" finished-at="2020-09-20T13:29:06Z">
+      <class name="com.QATest.RecruitCRM.qaagilityTest">
+        <test-method status="PASS" signature="TestDataSetup()[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="TestDataSetup" is-config="true" duration-ms="414" started-at="2020-09-20T13:27:48Z" finished-at="2020-09-20T13:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataSetup -->
+        <test-method status="PASS" signature="InitializeBrowser(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="InitializeBrowser" is-config="true" duration-ms="5475" started-at="2020-09-20T13:28:49Z" finished-at="2020-09-20T13:28:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gecko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method status="PASS" signature="qaagilityTesting(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="qaagilityTesting" duration-ms="6620" started-at="2020-09-20T13:28:55Z" finished-at="2020-09-20T13:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.qaagility.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qaagilityTesting -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="getResult" is-config="true" duration-ms="4" started-at="2020-09-20T13:29:01Z" finished-at="2020-09-20T13:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=qaagilityTesting status=SUCCESS method=qaagilityTest.qaagilityTesting(java.lang.String)[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="VerifyTitle" duration-ms="26" started-at="2020-09-20T13:29:01Z" depends-on-methods="com.QATest.RecruitCRM.qaagilityTest.qaagilityTesting" finished-at="2020-09-20T13:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="GetTheSizeofLogo()[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="GetTheSizeofLogo" duration-ms="192" started-at="2020-09-20T13:29:01Z" depends-on-methods="com.QATest.RecruitCRM.qaagilityTest.qaagilityTesting" finished-at="2020-09-20T13:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTheSizeofLogo -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="getResult" is-config="true" duration-ms="2" started-at="2020-09-20T13:29:01Z" finished-at="2020-09-20T13:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTitle status=SUCCESS method=qaagilityTest.VerifyTitle()[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="VerifyTwitterAndFooterText()[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="VerifyTwitterAndFooterText" duration-ms="259" started-at="2020-09-20T13:29:01Z" depends-on-methods="com.QATest.RecruitCRM.qaagilityTest.qaagilityTesting" finished-at="2020-09-20T13:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTwitterAndFooterText -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="getResult" is-config="true" duration-ms="5" started-at="2020-09-20T13:29:01Z" finished-at="2020-09-20T13:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetTheSizeofLogo status=SUCCESS method=qaagilityTest.GetTheSizeofLogo()[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="getResult" is-config="true" duration-ms="1" started-at="2020-09-20T13:29:01Z" finished-at="2020-09-20T13:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTwitterAndFooterText status=SUCCESS method=qaagilityTest.VerifyTwitterAndFooterText()[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.QATest.RecruitCRM.qaagilityTest@61f8bee4]" name="TearDown" is-config="true" duration-ms="4400" started-at="2020-09-20T13:29:01Z" finished-at="2020-09-20T13:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.QATest.RecruitCRM.qaagilityTest -->
+    </test> <!-- qaagilityTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
