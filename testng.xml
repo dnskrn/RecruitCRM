@@ -12,6 +12,7 @@
 			<class name="com.QATest.RecruitCRM.AutomationpracticeTest" />
 		</classes>
 	</test>
+	
 	<test name="GogleMapsTest">
 		<parameter name="Browser" value="chrome" />
 		<parameter name="env" value="https://www.google.com/maps/" />
